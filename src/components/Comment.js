@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 
+//Это можно сделать Functional Component, по возможности используй их
 class Comment extends Component {
 
     constructor() {
         super(); // todo-q: нужно ли вызывать конструктор родителя в этом месте, если мы ничего не делаем здесь?
+        //нет
     }
 
     render() {
