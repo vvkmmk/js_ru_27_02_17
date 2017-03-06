@@ -30,6 +30,7 @@ class CommentList extends Component {
     };
 
     getComments(comments) { // @todo-q: почему IDE тут показывает что method can be static?
+        //просто ты здесь this нигде не используешь
         if (!comments) {
             return '';
         }
